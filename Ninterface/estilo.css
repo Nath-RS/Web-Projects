@@ -1,0 +1,50 @@
+hr{
+    display: inline-block;
+    width: 120px;
+}
+.container{
+    text-align: center;
+    margin-top: 150px;
+}
+.container-page{
+    font-family:cursive;
+    border: 1px solid gray;
+    width: 300px;
+    background-color:#fff;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 20px 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.user-input{
+margin-bottom: 5px;
+display:flex;
+height: 40px;
+justify-content: center;
+}
+.input-input{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 2px;
+}
+#logar{
+    color: #fff;
+    text-shadow: 1px solid gray;
+    background-color: rgb(119, 187, 209);    
+}
+#logar:hover{
+    background-color: lightseagreen;
+}
+
+.image{
+    width: 150px;
+    height: 45px;
+    display: inline-flex;
+}
+.login-title{
+    margin-top: -5px;
+    margin-bottom: 40px;
+}
