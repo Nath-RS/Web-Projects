@@ -33,14 +33,35 @@
             <div class="container">
                 <h3 class="titulo">House of Cards</h3>
                 <p class="descricao">O congressista Francis Underwood e sua mulher, Claire, fazem de tudo para conquistar seus objetivos, não importa o que aconteça. Um mundo político recheado de ganância, corrupção e luxúria na capital Washington.</p>
-            
+                <div class="popup" id="popup1">
+                    
+                    <h3 class="popup-titulo">House of Cards</h3>
+                        <div class="popup-content">
+                        <h4 class="popup-subtitulo">Categoria</h4>
+                            <p class="descricao">Romance, Ação e Aventura</p>
+                        <h4 class="popup-subtitulo">Sinopse</h4>
+                            <p class="descricao">O congressista Francis Underwood e sua mulher, Claire, fazem de tudo para conquistar seus objetivos, não importa o que aconteça. Um mundo político recheado de ganância, corrupção e luxúria na capital Washington.</p>
+                        </div>
+                </div>
+                <div class="popup" id="popup2">
+                    
+                    <h3 class="popup-titulo">House of cards</h3>
+                    <video id="video1" width= "100%" height= "89%">
+                        <source src="videos/House of Cards _ Teaser _ Netflix [HD](480P).mp4" type="video/mp4">
+                        <source src="" type="">
+                        <source src="" type="">
+
+                    </video>
+
+                </div>
                 <div class="botoes">
                     
-                    <button role="button" class="botao">
-                        <i class="fas fa-play"></i>
-                        Assistir agora
-                    </button>
-                    <button role="button" class="botao">
+                        <button role="button" class="botao" onclick="operacaovideo()" onmouseover="operacaopopup('popup2',true)" onmouseout="operacaopopup('popup2',false),operacaovideo()">
+                            <i class="fas fa-play"></i>
+                            Assistir agora
+                        </button>
+                    
+                    <button role="button" class="botao" onmouseover="operacaopopup('popup1',true)" onmouseout="operacaopopup('popup1',false)">
                         <i class="fas fa-info-circle"></i>
                         Mais Informações
                     </button>
@@ -90,4 +111,5 @@
 <script src="jquery.min.js"></script>
 <script src="owl.carousel.min.js"></script>
 <script src="setup.js"></script>
+<script src="popup.js" async></script>
 </html>
