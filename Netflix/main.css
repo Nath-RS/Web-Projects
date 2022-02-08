@@ -1,6 +1,6 @@
 :root{
-    --vermelho: #e50914;
-    --preta: #141414;
+    --vermelho: #ff7f1f;
+    --preta: #f4f4f4;
 }
 
 *{
@@ -31,14 +31,15 @@ header .container{
 
 header nav a{
 text-decoration: none;
-color: #aaa;
+color:var(--vermelho);
 margin-right: 10px;
 font-family: monospace;
 font-weight: bolder;
 }
 
 header nav a:hover{
-    color: #fff;
+    color: #888888;
+    font-size: large;
     
 }
 /* filme Principal */
@@ -102,10 +103,10 @@ header nav a:hover{
 }
 
 .box-filme:hover{
-    border: 4px solid black;
+    border: 4px solid var(--vermelho);
     border-radius: 2px;
     transition: .2s ease all;
-    opacity: .3;
+    opacity: .7;
     margin: 5px;
 }
 
@@ -154,3 +155,11 @@ header nav a:hover{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.categoria-filmes{
+    color: var(--vermelho);
+    text-align: center;
+    font-size: large;
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 5px;
+}
